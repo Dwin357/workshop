@@ -1,0 +1,17 @@
+GIT IGNORE
+	- .gitignore at the root of the project
+	- I'm pretty sure all things in the ignore need to be defined relative to the root of the proj
+	- WARN :: this only prevents new things from being picked up by git -- once tracked it doesn't work / matter
+			-- see "git purge" for how to remove from tracking
+	- ignore file
+			readme.txt
+	- ignore dir
+			logs/
+	- ignore pattern
+			*.class
+
+ADD REMOTE
+	$ git remote add origin <url>
+
+CHANGE REMOTE
+	$ git remote set-url origin <url>

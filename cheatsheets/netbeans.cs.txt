@@ -1,0 +1,8 @@
+SUGGEST FIX / IMPORT
+	alt + enter
+
+COMMENT
+	cntrl + c
+
+GENERATE GETTERS / SETTERS / CONSTRUCTORS
+	alt + insert
