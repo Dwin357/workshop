@@ -3,14 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package io.github.dwin357.garage.runners;
+package io.github.dwin357.workshop.fileFeeder;
 
 /**
  *
  * @author dwin
  */
-public class ScracthPad {
-    public static void main(String[] args) {
-        System.out.println("I want to see this text");
-    }
+public interface FileFed {
+    public void takeLine(String line);
 }
